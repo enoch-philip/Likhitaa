@@ -12,13 +12,10 @@
 </head>
 
 <body>
-    <div id="boomScreen">
-    <div class="boomText">💥 BOOM! 💥</div>
-    </div>
 
 <div class="bg"></div>
 
-<!-- ================= HOME PAGE ================= -->
+<!-- HOME PAGE -->
 
 <div id="home" class="page active">
 
@@ -35,7 +32,7 @@
 
 </div>
 
-<!-- ================= MEMORIES PAGE ================= -->
+<!-- MEMORIES PAGE -->
 
 <div id="memories" class="page">
 
@@ -44,32 +41,35 @@
     <div class="gallery">
 
         <!-- Top Row -->
-<video controls>
-    <source src="video1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+        <video autoplay muted loop playsinline>
+            <source src="video1.mp4" type="video/mp4">
+        </video>
 
-<video controls>
-    <source src="video2.mp4" type="video/mp4">
-</video>
+        <video autoplay muted loop playsinline>
+            <source src="video2.mp4" type="video/mp4">
+        </video>
 
-<video controls>
-    <source src="video3.mp4" type="video/mp4">
-</video>
+        <!-- Middle -->
+        <video autoplay muted loop playsinline>
+            <source src="video3.mp4" type="video/mp4">
+        </video>
 
-        <img src="photo1.jpg" class="center-photo" onclick="openMedia(this.src)">
-<video controls>
-    <source src="video4.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+        <img src="photo1.jpg"
+             class="center-photo"
+             onclick="openMedia(this.src)">
 
-<video controls>
-    <source src="video5.mp4" type="video/mp4">
-</video>
+        <video autoplay muted loop playsinline>
+            <source src="video4.mp4" type="video/mp4">
+        </video>
 
-<video controls>
-    <source src="video6.mp4" type="video/mp4">
-</video>
+        <!-- Bottom -->
+        <video autoplay muted loop playsinline>
+            <source src="video5.mp4" type="video/mp4">
+        </video>
+
+        <video autoplay muted loop playsinline>
+            <source src="video6.mp4" type="video/mp4">
+        </video>
 
     </div>
 
@@ -79,7 +79,7 @@
 
 </div>
 
-<!-- ================= LETTER PAGE ================= -->
+<!-- LETTER PAGE -->
 
 <div id="letter" class="page">
 
@@ -101,12 +101,10 @@
 
 </div>
 
-<!-- ================= IMAGE VIEWER ================= -->
+<!-- IMAGE VIEWER -->
 
 <div id="viewer" onclick="closeMedia()">
-
     <img id="bigImg">
-
 </div>
 
 <script src="script.js"></script>
