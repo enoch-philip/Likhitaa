@@ -39,12 +39,8 @@ function closeMedia(){
 // =========================
 
 const letterText = `Happy Birthday, little kid❤️
-
 Today is all about celebrating you🫶🏻.
-
-
 All the love your heart deserves.
-
 No matter what happens, I will always cherish every moment we've spent together.
 Im really glad that i met such idiot😁.. you've become one of my favorite people to talk to. 
 From playing badminton together to sharing random thoughts and conversations, 
@@ -58,14 +54,12 @@ and my support always gonna be your side 💪🏻
 Thank you for being such a wonderful friend. I hope this year brings you happiness, 
 success, good health, and countless reasons to smile. Keep being the amazing person you are.
  Have a fantastic day—you truly deserve it. 🎂
-
 Keep smiling, keep shining
 
 A very Happy Birthday to the little one once again!🎀💗
-                            lots of love from
-                                 your 
-                               Superman🦸🏻😁
-
+                lots of love from
+                     your 
+                   Superman🦸🏻😁
 ❤️ Forever wishing you the very best ❤️`;
                         
 
