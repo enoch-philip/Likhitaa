@@ -120,12 +120,12 @@ button:hover{
     margin:30px auto;
 }
 
-/* Vertical videos */
+/* 3:4 Portrait Videos */
 
 .gallery video{
     width:180px;
-    height:320px;
-    object-fit:contain;
+    aspect-ratio:3/4;
+    object-fit:cover;
     border-radius:18px;
     background:#000;
     box-shadow:0 0 15px rgba(255,255,255,.35);
@@ -135,7 +135,7 @@ button:hover{
 
 .center-photo{
     width:220px;
-    height:390px;
+    aspect-ratio:3/4;
     object-fit:cover;
     border-radius:20px;
     border:4px solid white;
@@ -219,12 +219,12 @@ button:hover{
 
 .gallery video{
     width:220px;
-    height:390px;
+    aspect-ratio:3/4;
 }
 
 .center-photo{
     width:220px;
-    height:390px;
+    aspect-ratio:3/4;
 }
 
 h1{
